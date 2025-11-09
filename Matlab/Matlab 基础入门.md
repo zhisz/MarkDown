@@ -12,7 +12,7 @@
 
 ### 页面结构
 
-![image-20250820154154693](./image-20250820154154693.png)
+![image-20250820154154693](./photo/image-20250820154154693.png)
 
 
 
@@ -24,17 +24,17 @@
 
 ### 编辑器区
 
-当你在文件管理器或者文件夹区打开m文件时，其内容会在编辑器区域中显示，在此处你可以随意更改代码内容。同时运行也可在编辑器中实现，在matlab中，你只需选中目标代码，右键选择在命令行窗口执行所选内容即可，如图 ![image-20250820155345243](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820155345243.png)	 
+当你在文件管理器或者文件夹区打开m文件时，其内容会在编辑器区域中显示，在此处你可以随意更改代码内容。同时运行也可在编辑器中实现，在matlab中，你只需选中目标代码，右键选择在命令行窗口执行所选内容即可，如图 ![image-20250820155345243](./image-20250820155345243.png)	 
 
 ### 
 
 ### 命令行窗口区
 
-执行的内容会在命令行窗口处呈现出来 ![image-20250820155605248](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820155605248.png) 
+执行的内容会在命令行窗口处呈现出来 ![image-20250820155605248](./image-20250820155605248.png) 
 
 ### 工作区
 
-显示运行中出现的变量以及函数 ![image-20250820155712470](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820155712470.png) 
+显示运行中出现的变量以及函数 ![image-20250820155712470](./image-20250820155712470.png) 
 
 
 
@@ -44,9 +44,9 @@
 
 ；作为每一句的结束语在matlab中是非必须的，你可以选择性加上，以下是它的两个基本作用
 
-- 告诉编辑器是否打印结果。加了；表示不打印结果，不加表示需要在命令行窗口打印相应结果 ![image-20250820160442892](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820160442892.png)   
+- 告诉编辑器是否打印结果。加了；表示不打印结果，不加表示需要在命令行窗口打印相应结果 ![image-20250820160442892](./image-20250820160442892.png)   
 
-- 起到区分行的作用如数列[1 2 3;4 5 6]的结果为：![image-20250820160645427](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820160645427.png) 
+- 起到区分行的作用如数列[1 2 3;4 5 6]的结果为：![image-20250820160645427](./image-20250820160645427.png) 
 
 
 
@@ -76,7 +76,7 @@ disp函数，源自display缩写
 
 用法：disp();分号可加可不加，括号内容可以是数字，字符或者字符串
 
-数字：![image-20250820163052164](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820163052164.png)    字符： ![image-20250820163240417](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820163240417.png)    字符串： ![image-20250820163419768](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820163419768.png)  
+数字：![image-20250820163052164](./image-20250820163052164.png)    字符： ![image-20250820163240417](./image-20250820163240417.png)    字符串： ![image-20250820163419768](./image-20250820163419768.png)  
 
 
 
@@ -94,13 +94,13 @@ disp函数，源自display缩写
 
 要点：1.行向量用逗号 或者 空格 隔开；2.列向量用分号隔开 ；3.字符用单引号，字符串用双引号
 
-​    ![image-20250820164500370](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820164500370.png)   ![image-20250820164535449](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820164535449.png)   <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820164733574.png" alt="image-20250820164733574" style="zoom:80%;" /> 
+​    ![image-20250820164500370](./image-20250820164500370.png)   ![image-20250820164535449](./image-20250820164535449.png)   <img src="./photo/image-20250820164733574.png" alt="image-20250820164733574" style="zoom:80%;" /> 
 
 
 
 ##### []的另一个左右———拼接字符（串）
 
-用法：['字符串1' '字符串2' '字符串3']   ![image-20250820165427588](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820165427588.png) 
+用法：['字符串1' '字符串2' '字符串3']   ![image-20250820165427588](./image-20250820165427588.png) 
 
 
 
@@ -116,9 +116,9 @@ disp函数，源自display缩写
 
 拼接内容不可以是数字，但你可以使用num2str函数将数字转换为字符
 
-##### eg.  直接转化 ![image-20250820170814201](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820170814201.png)  保留四位有效数字（自动四舍五入）![image-20250820170934037](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820170934037.png)  
+##### eg.  直接转化 ![image-20250820170814201](./image-20250820170814201.png)  保留四位有效数字（自动四舍五入）![image-20250820170934037](./image-20250820170934037.png)  
 
-保留小数点后两位（自动四舍五入）![image-20250820173158859](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820173158859.png) *注意%.2f需要用单引号括起来*
+保留小数点后两位（自动四舍五入）![image-20250820173158859](./image-20250820173158859.png) *注意%.2f需要用单引号括起来*
 
 
 
@@ -133,11 +133,11 @@ disp函数，源自display缩写
 - 无分号
 
 
-![image-20250820174406710](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820174406710.png)  ![image-20250820174418170](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820174418170.png)  
+![image-20250820174406710](./image-20250820174406710.png)  ![image-20250820174418170](./image-20250820174418170.png)  
 
 - 有分号
 
-![image-20250820174505328](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820174505328.png) ![image-20250820174520383](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820174520383.png) 
+![image-20250820174505328](./image-20250820174505328.png) ![image-20250820174520383](./image-20250820174520383.png) 
 
 
 

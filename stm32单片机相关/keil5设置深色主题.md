@@ -12,7 +12,7 @@
 
   自己的Keil安装路径→UV4→global.prop文件
 
-   ![3d29d2d59230370d564125595b7edbe0](D:\Downloads\3d29d2d59230370d564125595b7edbe0.png) 
+   ![3d29d2d59230370d564125595b7edbe0](./3d29d2d59230370d564125595b7edbe0.png) 
 
 
 
@@ -20,7 +20,7 @@
 
    
 
-![9189ae63cb26a22489ab61a11447fb2d](D:\Downloads\9189ae63cb26a22489ab61a11447fb2d.png)  
+![9189ae63cb26a22489ab61a11447fb2d](./9189ae63cb26a22489ab61a11447fb2d.png)  
 
 在将修改后的代码保存后，重新打开keil就可以看到已经改好了风格
 

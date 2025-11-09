@@ -30,7 +30,7 @@
 
 4，波特率选择9600，与我们的蓝牙默认配置一样
 
- ![image-20250830151033661](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250830151033661.png) 
+ ![image-20250830151033661](./image-20250830151033661.png) 
 
 
 
@@ -42,7 +42,7 @@
 
 选择DMA Setting 选项卡，点击add添加该串口的RX和TX
 
- ![image-20250830152053566](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250830152053566.png) 
+ ![image-20250830152053566](./image-20250830152053566.png) 
 
 
 
@@ -60,7 +60,7 @@
 
 
 
- ![image-20250830152353172](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250830152353172.png) 
+ ![image-20250830152353172](./image-20250830152353172.png) 
 
 
 
@@ -78,7 +78,7 @@
 
 在Private variables私有变量中的User code中定义一个数组，数组名自拟，长度按需求设置，用于接收存储DMA的数据
 
- ![image-20250830154251781](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250830154251781.png) 
+ ![image-20250830154251781](./image-20250830154251781.png) 
 
 还是在main.c中，
 
@@ -117,7 +117,7 @@ DMA_IT_HT （DMA半传输中断）中的HT 意为 Half Transfer（半传输）�
 
 
 
- ![image-20250830153201094](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250830153201094.png)  
+ ![image-20250830153201094](./image-20250830153201094.png)  
 
 
 
@@ -149,7 +149,7 @@ HAL_UARTEx_RxEventCallback 串口接收回调函数，当idle（空闲中断）�
 
 该弱定义函数可在uart.c中找到
 
- ![image-20250830164816614](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250830164816614.png)  
+ ![image-20250830164816614](./image-20250830164816614.png)  
 
 
 
@@ -194,7 +194,7 @@ if( huart == &huart1)
 
 重写完的函数放在Private user code（私有用户代码）处的user code即可
 
-![image-20250830170919058](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250830170919058.png) 
+![image-20250830170919058](./image-20250830170919058.png) 
 
 
 
@@ -215,7 +215,7 @@ if( huart == &huart1)
 打开资料，有如下四个文件，pdf为用户手册，里面有详细的AT指令以及引脚配置信息，.exe文件为电脑串口调试程序，我们通过usb转串口设备将电脑与蓝牙模块相连接，电脑就能与蓝牙模块相通信。
 .apk文件为手机端调试app，下载安装即可。此时，手机端作为主机 蓝牙模块 为从机，手机主动连接蓝牙模块 ，实现主从机互通信。
 
-![image-20250831082516558](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250831082516558.png)  
+![image-20250831082516558](./image-20250831082516558.png)  
 
 
 
@@ -227,7 +227,7 @@ if( huart == &huart1)
 
 （以下是商家提供的串口调试助手，其他调试助手程序也是一样用的，但是注意要选对 串口号 和 波特率）
 
- ![image-20250831084534359](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250831084534359.png) 
+ ![image-20250831084534359](./image-20250831084534359.png) 
 
 
 
@@ -249,7 +249,7 @@ RXD 连接 usb to ttl的 TXD， TXD 连接 usb to ttl的 RXD，VCC连接5v或直
 
 至此，两个设备就完成了连接。
 
- <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250831090003861.png" alt="image-20250831090003861" style="zoom: 33%;" /> <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250831090117241.png" alt="image-20250831090117241" style="zoom:33%;" />
+ <img src="./photo/image-20250831090003861.png" alt="image-20250831090003861" style="zoom: 33%;" /> <img src="./photo/image-20250831090117241.png" alt="image-20250831090117241" style="zoom:33%;" />
 
 
 
@@ -287,7 +287,7 @@ RXD 连接 usb to ttl的 TXD， TXD 连接 usb to ttl的 RXD，VCC连接5v或直
 
 连接成功后，蓝牙模块指示灯常亮，我们通过手机端发送消息 来 观察 程序现象
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250831092740631.png" alt="image-20250831092740631" style="zoom: 33%;" />
+<img src="./photo/image-20250831092740631.png" alt="image-20250831092740631" style="zoom: 33%;" />
 
 
 
@@ -299,7 +299,7 @@ RXD 连接 usb to ttl的 TXD， TXD 连接 usb to ttl的 RXD，VCC连接5v或直
 
 
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250831092920060.png" alt="image-20250831092920060" style="zoom:33%;" />
+<img src="./photo/image-20250831092920060.png" alt="image-20250831092920060" style="zoom:33%;" />
 
 
 
