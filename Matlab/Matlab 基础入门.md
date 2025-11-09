@@ -12,7 +12,7 @@
 
 ### 页面结构
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250820154154693.png" alt="image-20250820154154693" style="zoom: 200%;" />
+<img src="D:\MarkDown\MarkDown\photo\image-20250820154154693.png" alt="image-20250820154154693" style="zoom: 200%;" />
 
 
 
