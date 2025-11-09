@@ -19,7 +19,7 @@ Crystal/Ceramic Resonator:外部无源晶振（陶瓷晶振）**
 
 无源晶振无需外部供电。有源晶需要外部供电，由一个引脚输出固定频率波形。
 
- ![image-20250830110240355](./image-20250830110240355.png) 
+ ![](./assets/image-20250830110240355.png) 
 
 
 
@@ -35,7 +35,7 @@ Timebase Source 系统时钟源配置，如果不用FreeRTOS，我们默认SysTi
 
 
 
- ![image-20250830110816638](./image-20250830110816638.png) 
+ ![](./assets/image-20250830110816638.png) 
 
 
 
@@ -47,7 +47,7 @@ Timebase Source 系统时钟源配置，如果不用FreeRTOS，我们默认SysTi
 
 直接输入最大频率然后回车即可，剩下的CubeMX会自动帮你配置好
 
-  ![image-20250830111938683](./image-20250830111938683.png)  
+  ![](./assets/image-20250830111938683.png)  
 
 
 
@@ -63,7 +63,7 @@ Timebase Source 系统时钟源配置，如果不用FreeRTOS，我们默认SysTi
 
 我们用keil5编写代码，所以工具链选择MDK-ARM，版本选择最新的即可
 
- ![image-20250830112343514](./image-20250830112343514.png)  
+ ![](./assets/image-20250830112343514.png)  
 
 
 
@@ -73,7 +73,7 @@ Timebase Source 系统时钟源配置，如果不用FreeRTOS，我们默认SysTi
 
 然后在Generated files 中勾选如下两项即可，第一项为每个工程文件都生成.c.h文件不要选，实测中发现你在main.c中调用别的库函数时可能会报错。
 
- ![image-20250830112900686](./image-20250830112900686.png) 
+ ![](./assets/image-20250830112900686.png) 
 
 
 
@@ -93,7 +93,7 @@ Timebase Source 系统时钟源配置，如果不用FreeRTOS，我们默认SysTi
 
 后续如果需要添加引脚功能，只需在工程文件夹中打开.ioc文件即可，以上的配置都无需再次更改。
 
- ![image-20250830114055742](./image-20250830114055742.png)  
+ ![](./assets/image-20250830114055742.png)  
 
 
 
